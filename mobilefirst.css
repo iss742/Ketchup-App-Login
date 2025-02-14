@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #960102;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5em;
+
+    
+
+}
+.logo{
+    width: 40vw;
+    height: 20vh;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 40%;
+    width: 100%;
+    margin: 0 auto;
+    fill-color: rgb(168, 26, 26);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+.buttons button{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(168, 26, 26);
+    font-size: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-left: 0,8%; 
+    margin-top: 5%;*/
+    width: 100%;
+    height: 10%;
+     border-color: rgb(168, 26, 26);
+    border-style: dotted ;
+    border-weight: 2px;
+    
+}
+.buttons button:hover{
+    background-color: rgb(168, 26, 26);
+    color: white;
+    border-style: dotted;
+    text-decoration: underline;
+}

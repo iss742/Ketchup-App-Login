@@ -1,0 +1,105 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.back-logo{
+    justify-content: left;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 0%;
+    margin-right: 20%;
+} 
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    height: 10%;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    border-color:aqua
+    text-decoration: underline 1vh;
+}
+h1{
+    margin-left: 27%;
+}
+.body{
+    background-image:url('https://i.pinimg.com/736x/a4/7b/b8/a47bb8312132963d5047412c68f29124.jpg');
+}
+
+.fieldset{
+    display: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    height: 40%;
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(168, 26, 26);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.5em;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+input[name="Login"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(110, 15, 15);
+    font-size: 1.8em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    height: 10%;
+
+}
+input[name="Password"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(110, 15, 15);
+    font-size: 1.8em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    height: 10%;
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(168, 26, 26);
+    font-size: 1.8em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 0,8%;
+    margin-top: 5%;
+    width: 50%;
+    height: 10%;
+    text-decoration: underline;
+    border-color: white;
+    border-style: dotted ;
+    border-weight: 2px;
+
+}
+button:hover{
+    background-color: rgb(168, 26, 26);
+    color: white;
+    border-color: white;
+    border-style: dotted ;
+    border-weight: 2px;
+    text-decoration: underline;
+}
+#regtitle{
+    text-decoration: underline;
+    margin-left: 15%;
+}
